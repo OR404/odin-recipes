@@ -1,8 +1,27 @@
+.body-index {
+  background-image: url(https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.body-recipies {
+  background-image: url(https://img.freepik.com/free-photo/natural-wooden-background_24837-269.jpg?w=1060&t=st=1687635338~exp=1687635938~hmac=d66b5ffbfddd1a1a421143d13e8a317cd10992b974807e1c2bdafb79f04e9578);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .img-container {
     display: flex;
   justify-content: center;
   align-items: center;
 }
+.img-index {
+  margin-top: 150px;
+
+}
+
+
 .center-container , h1 {
     text-align: center;
     list-style-position: inside;
