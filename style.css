@@ -1,4 +1,9 @@
-
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-image: url(https://img.freepik.com/free-photo/natural-wooden-background_24837-269.jpg?w=1060&t=st=1687635338~exp=1687635938~hmac=d66b5ffbfddd1a1a421143d13e8a317cd10992b974807e1c2bdafb79f04e9578);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .body-index {
   background-image: url(https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
@@ -6,11 +11,7 @@
 
 
 }
-.body-recipies {
-  background-image: url(https://img.freepik.com/free-photo/natural-wooden-background_24837-269.jpg?w=1060&t=st=1687635338~exp=1687635938~hmac=d66b5ffbfddd1a1a421143d13e8a317cd10992b974807e1c2bdafb79f04e9578);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .img-container {
   display: flex;
 justify-content: center;
@@ -18,7 +19,7 @@ align-items: center;
 }
 
 .img-index>img {
-  margin-top: 150px;
+  margin-top: 135px;
   width: 500px;
   height: auto;
 }
@@ -27,8 +28,12 @@ align-items: center;
   height: auto;
 }
 
-
-
+.img-index>img , .img-recipies>img {
+  border: 3px solid rgb(165, 101, 42);
+  padding: 5px;
+  border-radius:5px ;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3) ;
+}
 
 
 .center-container , h1 {
