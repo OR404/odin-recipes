@@ -1,3 +1,4 @@
+
 .body-index {
   background-image: url(https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
@@ -10,16 +11,24 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .img-container {
-    display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
-.img-index {
-  margin-top: 150px;
 
+.img-index>img {
+  margin-top: 150px;
+  width: 500px;
+  height: auto;
 }
+.img-recipies>img {
+  width: 500px;
+  height: auto;
+}
+
+
+
 
 
 .center-container , h1 {
