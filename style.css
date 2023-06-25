@@ -5,7 +5,8 @@ body {
   background-image: url(https://img.freepik.com/free-photo/natural-wooden-background_24837-269.jpg?w=1060&t=st=1687635338~exp=1687635938~hmac=d66b5ffbfddd1a1a421143d13e8a317cd10992b974807e1c2bdafb79f04e9578);
   background-repeat: no-repeat;
   background-size: cover;
-  font-size:20px;
+  font-size:15px;
+  font-weight: 500;
 }
 .img-container {
   display: flex;
@@ -25,13 +26,19 @@ h1 {
 .ingredients-text {
   display: inline-block;
   background-color: rgba(236, 197, 88, 0.3);
-  padding-left :150px;
-  padding-right:150px;
+  padding-left: 150px;
+  padding-right: 150px;
   border: 3px solid rgb(165, 101, 42);
   border-radius: 5px;
   
 }
-
+.steps-container { /*problematic,ruins the structure for shakshuka.html and cookies.html*/
+  display: inline-block;
+  background-color: rgba(236, 197, 88, 0.3);
+  border: 3px solid rgb(165, 101, 42);
+  border-radius: 5px;
+  margin-top : 10px;
+}
 
 .body-index {
   margin : 0;
