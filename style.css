@@ -30,14 +30,14 @@ h1 {
   padding-right: 150px;
   border: 3px solid rgb(165, 101, 42);
   border-radius: 5px;
-  
 }
-.steps-container { /*problematic,ruins the structure for shakshuka.html and cookies.html*/
+.steps-container { 
   display: inline-block;
   background-color: rgba(236, 197, 88, 0.3);
   border: 3px solid rgb(165, 101, 42);
   border-radius: 5px;
-  margin-top : 10px;
+  margin-top : 20px;
+  margin-bottom: 10px;
 }
 
 .body-index {
